@@ -1,0 +1,19 @@
+{
+  "name": "poc-cucumber-playwright",
+  "version": "0.1.0",
+  "author": "Dennis Gerike",
+  "license": "MIT",
+  "homepage": "https://github.com/dennis-gerike/poc-cucumber-playwright#readme",
+  "repository": "https://github.com/dennis-gerike/poc-cucumber-playwright",
+  "bugs": "https://github.com/dennis-gerike/poc-cucumber-playwright/issues",
+  "scripts": {
+    "run-playwright-tests-in-gui": "npx bddgen && npx playwright test --ui",
+    "run-playwright-tests-in-terminal": "npx bddgen && npx playwright test",
+    "test": "npm run run-playwright-tests-in-terminal"
+  },
+  "dependencies": {
+    "playwright-bdd": "6.0.3",
+    "@cucumber/cucumber": "10.3.2",
+    "@playwright/test": "1.42.1"
+  }
+}
