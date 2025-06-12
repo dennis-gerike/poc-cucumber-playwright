@@ -1,4 +1,11 @@
-/.features-gen
-/cucumber-report
-/node_modules
-/test-results
+# dependencies
+node_modules
+
+# IDE
+.idea
+
+# generated files
+.features-gen
+cucumber-report
+test-results
+playwright-report
